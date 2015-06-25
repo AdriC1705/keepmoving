@@ -52,7 +52,11 @@ global $sd_data;
 </head>
 <body <?php body_class( '' ); ?>>
 <header id="sd-header" class="clearfix">
+<<<<<<< HEAD
 	
+=======
+	<!--Sometimes changes the code, this is not original code of the theme -->
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 	<?php if ( $sd_data['sd_top_bar'] == '1' ) : ?>
 	<div class="sd-header-top">
 		<div class="container">
@@ -64,6 +68,7 @@ global $sd_data;
 				<?php endif; ?>
 			</h1>
 			<!-- logo end --> 
+<<<<<<< HEAD
 			<?php if ( $sd_data['sd_top_bar_left'] == '1' ) : ?>
     		<!--ul class="sd-header-left-options">
 				
@@ -81,6 +86,8 @@ global $sd_data;
 				
 	    	</ul-->
 			<?php endif; ?>
+=======
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
     
 			<?php if ( $sd_data['sd_social_icons'] == '1' ) : ?>	
    		    <div class="sd-header-social clearfix">
@@ -92,6 +99,10 @@ global $sd_data;
 				} ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'otro-menu' ) ); ?>
 	    	</div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 			<?php endif; ?>
 			
 	    </div>

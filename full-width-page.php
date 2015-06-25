@@ -9,7 +9,11 @@ get_header();
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'sd-full-width clearfix container' ); ?>> 
 	
 	<!-- entry content -->
+<<<<<<< HEAD
 	<div class="entry-content container">
+=======
+	<div class="entry-content">
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 		<?php the_content(); ?>
 	</div>
 	<!-- entry content end--> 

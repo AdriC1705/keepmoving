@@ -2,7 +2,11 @@
 Theme Name: My University
 Theme URI: http://skat.tf/
 Description: An Ultra Responsive University/College/School Education WordPress Theme. <strong>Follow me on twitter:</strong> <a href="http://www.twitter.com/skatdesign">Skat Design</a>
+<<<<<<< HEAD
 Version: 1.1.2
+=======
+Version: 1.1
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 Author: Skat
 Author URI: http://skat.tf/
 Tags: two-columns
@@ -287,10 +291,17 @@ ol li ol li {
 /* 03. Full Width
 /* ------------------------------------------------------------------------ */
 .sd-full-width {
+<<<<<<< HEAD
 	margin: 0;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+=======
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	/*width: 100%;*/
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 	-moz-box-sizing: border-box;
 		 box-sizing: border-box;
 }
@@ -325,8 +336,15 @@ ol li ol li {
 
 #sd-header {
 	background-color: #fff;
+<<<<<<< HEAD
 	height: 135px;
 	width: 100%;
+=======
+	height: 108px; /*135px*/
+	width: 100%;
+	border-bottom: 2px solid #E7E5E5;
+  	margin-bottom: 2%;
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 }
 /* header top */
 .sd-header-top {
@@ -437,7 +455,11 @@ ol li ol li {
 
 .sd-menu-wrapper {
 	float: left;
+<<<<<<< HEAD
 	margin-top: 8px;
+=======
+	margin-top: 8px; /*28px*/
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 	position: relative;
 }
 .sf-menu,
@@ -476,8 +498,13 @@ ol li ol li {
 .sf-menu a {
 	color: #62524c;
 	display: block;
+<<<<<<< HEAD
 	font-size: 14px;
 	padding: 5px 15px;
+=======
+	font-size: 18px;
+	padding: 5px 10px;
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 	position: relative;
 }
 .sf-menu a i {
@@ -494,12 +521,22 @@ ol li ol li {
 	margin-right: 0;	
 }
 .sf-menu li a:hover {
+<<<<<<< HEAD
 	background-color: #2a2e30;
 	color: #fff;
 }
 .current-menu-item a {
 	background-color: #2a2e30;
 	color: #fff;
+=======
+	/*background-color: #2a2e30;
+	color: #fff;*/
+	border-bottom: 5px solid #2a2e30;
+}
+.current-menu-item a {
+	/*background-color: #2a2e30;
+	color: #fff;*/
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 }
 /* menu with children */
 .sf-with-ul {
@@ -590,7 +627,13 @@ ol li ol li {
 /* sd megamenu */
 
 #sd-main-menu .current-menu-item > a {
+<<<<<<< HEAD
 	background-color: #2a2e30;	
+=======
+	/*background-color: #2a2e30;	*/
+	color: #000;
+	border-bottom: 5px solid #2a2e30;
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 }
 .sf-menu > li.sd-megamenu { 
 	position: inherit !important;
@@ -1455,7 +1498,12 @@ ol li ol li {
 .blogroll li,
 #sd-footer .widget_nav_menu li {
 	float: left;
+<<<<<<< HEAD
 	width: 46%;
+=======
+	/*width: 46%;*/
+	margin: 0 8px;
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 }
 .blogroll li:before,
 #sd-footer .widget_nav_menu li:before {
@@ -2438,6 +2486,10 @@ body .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content {
 /* ------------------------------------------------------------------------ */
 /* EOF
 /* ------------------------------------------------------------------------ */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5bb7be9afa80fd5c8d9606faae730e3368e0cd8e
 /*MENU acoplado
 /* ------------------------------------------------------------------------ */
 
